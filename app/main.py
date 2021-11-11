@@ -19,6 +19,7 @@ def get_db():
     finally:
         db.close()
 
+#Authentification
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
